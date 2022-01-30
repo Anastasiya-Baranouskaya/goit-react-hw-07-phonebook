@@ -1,0 +1,10 @@
+.App {
+  padding-right: 250px;
+  padding-left: 250px;
+  display: grid;
+  justify-content: start;
+  background-color: rgba(240, 203, 203, 0.705);
+}
+.width {
+  width: 350px;
+}

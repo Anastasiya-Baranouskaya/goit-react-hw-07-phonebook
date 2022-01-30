@@ -1,0 +1,30 @@
+.list {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.listItem {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.listItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+.span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.button {
+  cursor: pointer;
+  border-radius: 20px;
+}
+.button:hover {
+  text-transform: uppercase;
+
+  background-color: rgba(241, 115, 115, 0.795);
+  box-shadow: 0 12px 16px 0 rgba(231, 182, 182, 0.24),
+    0 17px 50px 0 rgba(47, 180, 80, 0.19);
+}

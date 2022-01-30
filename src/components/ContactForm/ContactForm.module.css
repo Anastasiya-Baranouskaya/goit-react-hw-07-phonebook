@@ -1,0 +1,21 @@
+.form {
+  margin-left: 25px;
+}
+.label {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+.input {
+  padding: 4px 4px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.button {
+  border-radius: 25px;
+  cursor: pointer;
+}
+.button:hover {
+  text-transform: uppercase;
+  background-color: rgba(241, 115, 115, 0.795);
+}

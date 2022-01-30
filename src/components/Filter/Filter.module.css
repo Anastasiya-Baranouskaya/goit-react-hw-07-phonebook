@@ -1,0 +1,9 @@
+.div {
+  margin-left: 25px;
+}
+.label {
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
