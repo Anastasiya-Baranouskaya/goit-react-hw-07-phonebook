@@ -23,12 +23,17 @@ export default function ContactList() {
 
   return (
     <>
-      {loader && <h1>Loading...</h1>}
+      {
+        <h1
+          style={{ height: '30px', visibility: loader ? 'visible' : 'hidden' }}
+        >
+          Loading...
+        </h1>
+      }
       <ul className={s.list}>
-        {!loader &&
-          filteredContacts.map(({ id, name, number }) => (
-            <ContactListItem key={id} id={id} name={name} number={number} />
-          ))}
+        {filteredContacts.map(({ id, name, number }) => (
+          <ContactListItem key={id} id={id} name={name} number={number} />
+        ))}
       </ul>
       {filteredContacts.length === 0 && !loader && (
         <h1>There are no contacts in phonebook!</h1>
